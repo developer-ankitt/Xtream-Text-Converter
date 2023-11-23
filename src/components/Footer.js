@@ -6,7 +6,7 @@ const Footer = () => {
             <footer class="footer section bd-container">
                 <div class="footer__container bd-grid">
                     <div class="footer__content">
-                        <a href="#" class="footer__logo">Yummy Sandwich</a>
+                        <a href="#" class="footer__logo">Xtream Text Converter</a>
                         <span class="footer__description">Follow for more</span>
                         <div>
                             <a href="https://www.facebook.com/profile.php?id=100076434714683" target="_blank" class="footer__social"><i class='bx bxl-facebook'></i></a>
@@ -17,9 +17,9 @@ const Footer = () => {
                     <div class="footer__content">
                         <h3 class="footer__title">Services</h3>
                         <ul>
-                            <li><a href="#" class="footer__link">Delivery</a></li>
-                            <li><a href="#" class="footer__link">Pricing</a></li>
-                            <li><a href="#" class="footer__link">Fast food</a></li>
+                            <li><a href="#" class="footer__link">Uses</a></li>
+                            <li><a href="#" class="footer__link">Helpful links</a></li>
+                            <li><a href="#" class="footer__link">Support Us</a></li>
                         </ul>
                     </div>
 
@@ -34,13 +34,13 @@ const Footer = () => {
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">Adress</h3>
+                        <h3 class="footer__title">Address</h3>
                         <ul>
                             <li>60 Ft. Road</li>
                             <li>Near Axis Bank</li>
-                            <li>Khumarpura, Gwalior</li>
-                            <li>88-398-66063</li>
-                            <li>yummysandwich@gmail.com</li>
+                            <li>Gwalior</li>
+                            <li>999-999-9999</li>
+                            <li>developer_ankit@gmail.com</li>
                         </ul>
                     </div>
                 </div>

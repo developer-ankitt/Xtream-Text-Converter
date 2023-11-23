@@ -3,6 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
+        {/* HEAD detached from d39b8d7 */}
             <footer class="footer section bd-container">
                 <div class="footer__container bd-grid">
                     <div class="footer__content">

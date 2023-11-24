@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Navbar = (props) => {
     // export default function Navbar(props) {
@@ -18,11 +19,11 @@ const Navbar = (props) => {
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">{props.aboutUs}</a>
+                                <a class="nav-link active" aria-current="page" href="/">{props.about}</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">{props.contactUs}</a>
+                                <a class="nav-link active" aria-current="page" href="/">{props.contact}</a>
                             </li>
                         </ul>
 
@@ -35,6 +36,21 @@ const Navbar = (props) => {
             </nav>
         </>
     )
+}
+
+// To set propTypes (propTypes are used to declare the data as well as to set some mandatory props like website's Title, Contact Us, About Us etc.)
+Navbar.propTypes ={
+    title: PropTypes.string.isRequired,
+    about: PropTypes.string.isRequired,
+    home: PropTypes.string.isRequired,
+}
+
+//  Set some Default propTypes 
+Navbar.defaultProps ={
+    title: "Set Title Here",
+    about: "About",
+    contact: "Contact",
+    home: "Home"
 }
 
 export default Navbar

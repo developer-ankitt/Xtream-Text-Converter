@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Footer/>
+    <Navbar title = "Xtream Text Converter" home ="Home" aboutUs = "About" contactUs ="Contact"/>
+    {/* <Footer/> */}
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+// let mashup the code and then restore the code by typing command git restore "path" 
 
 const Navbar = (props) => {
     // export default function Navbar(props) {

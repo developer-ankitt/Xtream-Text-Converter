@@ -24,8 +24,8 @@ const TextForm = (props) => {
             <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handelOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
                 </div>
-                <button className="btn btn-primary mx-2" onClick={handelUpClick} >Uppercase</button>
-                <button className="btn btn-primary mx-2" onClick={handelLoClick} >Lowerercase</button>
+                <button className="btn btn-primary mx-1" onClick={handelUpClick} >Uppercase</button>
+                <button className="btn btn-primary mx-1" onClick={handelLoClick} >Lowerercase</button>
                 <button className="btn btn-danger mx-2">Clear</button>
             </div>
 

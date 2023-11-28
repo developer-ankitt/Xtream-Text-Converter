@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/developer-ankitt/Xtream-Text-Converter.git/static/css/main.31d6cfe0.css",
-    "main.js": "/developer-ankitt/Xtream-Text-Converter.git/static/js/main.ef5e884d.js",
-    "static/js/787.17fcbad5.chunk.js": "/developer-ankitt/Xtream-Text-Converter.git/static/js/787.17fcbad5.chunk.js",
-    "index.html": "/developer-ankitt/Xtream-Text-Converter.git/index.html",
-    "main.ef5e884d.js.map": "/developer-ankitt/Xtream-Text-Converter.git/static/js/main.ef5e884d.js.map",
-    "787.17fcbad5.chunk.js.map": "/developer-ankitt/Xtream-Text-Converter.git/static/js/787.17fcbad5.chunk.js.map"
+    "main.css": "/Xtream-Text-Converter/static/css/main.31d6cfe0.css",
+    "main.js": "/Xtream-Text-Converter/static/js/main.c07e1b78.js",
+    "static/js/787.17fcbad5.chunk.js": "/Xtream-Text-Converter/static/js/787.17fcbad5.chunk.js",
+    "index.html": "/Xtream-Text-Converter/index.html",
+    "main.c07e1b78.js.map": "/Xtream-Text-Converter/static/js/main.c07e1b78.js.map",
+    "787.17fcbad5.chunk.js.map": "/Xtream-Text-Converter/static/js/787.17fcbad5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.ef5e884d.js"
+    "static/js/main.c07e1b78.js"
   ]
 }

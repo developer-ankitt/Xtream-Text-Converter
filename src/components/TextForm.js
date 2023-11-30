@@ -42,13 +42,9 @@ const TextForm = (props) => {
                 </div>
                 <button className="btn btn-primary mx-1" onClick={handelUpClick} >Uppercase</button>
                 <button className="btn btn-primary mx-1" onClick={handelLoClick} >Lowerercase</button>
-<<<<<<< HEAD
-                <button className="btn btn-danger mx-2">Clear</button>
-=======
                 <button className="btn btn-primary mx-1" onClick={handelCopyClick} >Copy Text</button>
                 <button className="btn btn-primary mx-1" onClick={handelExtraSpaceClick} >Remove Extra Space</button>
                 <button className="btn btn-danger mx-1" onClick={hadelClearClick} >Clear</button>
->>>>>>> code_with_bootstrap
             </div>
 
             <div className="container my-3" style={{color: props.mode==='dark'?'white':'#042743'}}>

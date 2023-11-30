@@ -13,6 +13,11 @@ const TextForm = (props) => {
         setText(newText)
     }
 
+    const hadelClearClick =()=>{
+        let newText = " ";
+        setText(newText)
+    }
+
     const handelOnChange=(event)=>{
         setText(event.target.value)
     }
@@ -24,9 +29,9 @@ const TextForm = (props) => {
             <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handelOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
                 </div>
-                <button className="btn btn-primary mx-2" onClick={handelUpClick} >Uppercase</button>
-                <button className="btn btn-primary mx-2" onClick={handelLoClick} >Lowerercase</button>
-                <button className="btn btn-danger mx-2">Clear</button>
+                <button className="btn btn-primary mx-1" onClick={handelUpClick} >Uppercase</button>
+                <button className="btn btn-primary mx-1" onClick={handelLoClick} >Lowerercase</button>
+                <button className="btn btn-danger mx-1" onClick={hadelClearClick} >Clear</button>
             </div>
 
             <div className="container my-3">

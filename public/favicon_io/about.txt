@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Norican
+- Font Author: Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
+- Font Source: http://fonts.gstatic.com/s/norican/v15/MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

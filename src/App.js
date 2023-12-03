@@ -6,8 +6,9 @@ import React, { useState } from 'react';
 // import About from './components/About';
 // import Footer from './components/Footer';
 
+
 function App() {
-  const [mode, setMode] = useState('light'); // Whether dark mode is enabled or not
+  const [mode, setMode] = useState('dark'); // Whether dark mode is enabled or not
 
   const toggleMode = ()=>{
     if(mode === 'light'){
@@ -21,6 +22,7 @@ function App() {
   }
   return (
     <>
+    <div style={{backgroundColor: 'black'}}></div>
     {/* <Navbar title = "Xtream Text Converter" home ="Home" aboutUs = "About" contactUs ="Contact"/> */}
     <Navbar title = "Xtream Text Converter" mode={mode} toggleMode={toggleMode} />
     <TextForm heading ="Enter the Text below" mode={mode} />

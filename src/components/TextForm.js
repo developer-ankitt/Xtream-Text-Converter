@@ -40,11 +40,11 @@ const TextForm = (props) => {
                 <div className="mb-3">
                     <textarea className="form-control" value={text} onChange={handelOnChange} style={{backgroundColor: props.mode==='dark'?'grey':'white', color: props.mode==='dark'?'white':'#042743'}} id="textbox" rows="8"></textarea>
                 </div>
-                <button className="btn btn-primary mx-1" onClick={handelUpClick} >Uppercase</button>
-                <button className="btn btn-primary mx-1" onClick={handelLoClick} >Lowerercase</button>
-                <button className="btn btn-primary mx-1" onClick={handelCopyClick} >Copy Text</button>
-                <button className="btn btn-primary mx-1" onClick={handelExtraSpaceClick} >Remove Extra Space</button>
-                <button className="btn btn-danger mx-1" onClick={hadelClearClick} >Clear</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handelUpClick} >Uppercase</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handelLoClick} >Lowerercase</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handelCopyClick} >Copy Text</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handelExtraSpaceClick} >Remove Extra Space</button>
+                <button className="btn btn-danger mx-1 my-1" onClick={hadelClearClick} >Clear</button>
             </div>
 
             <div className="container my-3" style={{color: props.mode==='dark'?'white':'#042743'}}>
